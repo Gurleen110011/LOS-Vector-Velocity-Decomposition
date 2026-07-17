@@ -1,0 +1,13 @@
+{
+  "workflow": "dual_pass_los_decomposition",
+  "incidence_mode": "manual",
+  "vlos_asc": -0.0075,
+  "vlos_desc": -0.0047,
+  "velocity_unit": "mm/year",
+  "los_positive_input": "toward",
+  "asc_subswath": "IW1",
+  "desc_subswath": "IW1",
+  "polarization": "VV",
+  "ascending_slc": null,
+  "descending_slc": null
+}

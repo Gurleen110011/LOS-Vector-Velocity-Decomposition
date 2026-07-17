@@ -1,0 +1,36 @@
+{
+  "heading_policy": "fixed Sentinel-1 representative values requested by user",
+  "fixed_headings_deg": {
+    "ascending": -12.51,
+    "descending": -167.49
+  },
+  "ascending": {
+    "heading_deg": -12.51,
+    "look_azimuth_deg": 77.49000000000001,
+    "incidence": {
+      "source": "manual_subswath_preset",
+      "subswath": "IW1",
+      "mean_deg": 33.0,
+      "nominal_range_deg": [
+        29.0,
+        37.0
+      ],
+      "method": "Configurable nominal mean selected from subswath. Use XML mode when product-specific geometry is available."
+    }
+  },
+  "descending": {
+    "heading_deg": -167.49,
+    "look_azimuth_deg": -77.49000000000001,
+    "incidence": {
+      "source": "manual_subswath_preset",
+      "subswath": "IW1",
+      "mean_deg": 33.0,
+      "nominal_range_deg": [
+        29.0,
+        37.0
+      ],
+      "method": "Configurable nominal mean selected from subswath. Use XML mode when product-specific geometry is available."
+    }
+  },
+  "validation": {}
+}

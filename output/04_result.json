@@ -1,0 +1,49 @@
+{
+  "inputs_used": {
+    "vlos_asc_normalized_positive_toward": -0.0075,
+    "vlos_desc_normalized_positive_toward": -0.0047,
+    "velocity_unit": "mm/year",
+    "original_los_positive_convention": "toward"
+  },
+  "geometry_used": {
+    "asc_subswath": "IW1",
+    "desc_subswath": "IW1",
+    "asc_incidence_deg": 33.0,
+    "desc_incidence_deg": 33.0,
+    "asc_heading_deg": -12.51,
+    "desc_heading_deg": -167.49
+  },
+  "coefficients": {
+    "ascending": {
+      "heading_deg": -12.51,
+      "look_azimuth_deg": 77.49000000000001,
+      "theta_rad": 1.3524556373704062,
+      "incidence_deg": 33.0,
+      "alpha_rad": 0.5759586531581288,
+      "hlos": 0.838670567945424,
+      "elos": -0.5317083329117621
+    },
+    "descending": {
+      "heading_deg": -167.49,
+      "look_azimuth_deg": -77.49000000000001,
+      "theta_rad": -1.3524556373704062,
+      "incidence_deg": 33.0,
+      "alpha_rad": 0.5759586531581288,
+      "hlos": 0.838670567945424,
+      "elos": 0.5317083329117621
+    }
+  },
+  "result": {
+    "velocity_east_west": 0.0026330224924880617,
+    "velocity_vertical": -0.007273416086299279,
+    "velocity_real_2d": 0.00773533380083789,
+    "velocity_direction_deg_from_east_ccw": -70.09942453468395,
+    "velocity_direction_deg_0_360": 289.900575465316,
+    "absolute_vertical_horizontal_ratio": 2.762382815585559,
+    "geometry_determinant": -0.8918562590888442,
+    "east_west_sign": "positive=east, negative=west",
+    "vertical_sign": "positive=up, negative=down",
+    "direction_convention": "0=east, 90=up, 180=west, 270=down in the East-West/vertical plane",
+    "status": "ok"
+  }
+}
